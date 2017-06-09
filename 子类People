@@ -1,0 +1,11 @@
+package com.rent;
+
+public class People extends Car{//仅能载人的车辆类
+
+	public People(String name,int peoplenum,int carnum,int price){
+		super.setName(name);
+		super.setCarnum(carnum);
+		super.setPeoplenum(peoplenum);
+		super.setPrice(price);
+	}
+}
