@@ -1,0 +1,45 @@
+package com.rent;
+
+public class Car {
+
+	public String name;//车的名字
+	public int price;//租车一天价格
+	public int peoplenum;//可装载的人数
+	public int thingnum;//可装载的货物
+	public int carnum;//车辆编号
+	
+	public String getName(){
+		return name;
+	}
+	public void setName(String name){
+		this.name=name;
+	}
+	
+	public int getPrice(){
+		return price;
+	}
+	public void setPrice(int price){
+		this.price=price;
+	}
+	
+	public int getPeoplenum(){
+		return peoplenum;
+	}
+	public void setPeoplenum(int peoplenum){
+		this.peoplenum=peoplenum;
+	}
+	
+	public int getThingnum(){
+		return thingnum;
+	}
+	public void setThingnum(int thingnum){
+		this.thingnum=thingnum;
+	}
+	
+	public int getCarnum(){
+		return carnum;
+	}
+	public void setCarnum(int carnum){
+		this.carnum=carnum;
+	}
+}
